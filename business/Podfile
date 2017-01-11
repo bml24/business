@@ -1,0 +1,8 @@
+platform :ios, '8.0'
+
+target 'business' do
+ pod 'AFNetworking', '~> 2.0'
+ pod 'SBJson', '~> 4.0.0'  
+ pod 'pop', '~> 1.0.6'
+end
+

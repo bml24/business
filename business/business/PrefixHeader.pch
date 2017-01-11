@@ -1,0 +1,42 @@
+//
+//  PrefixHeader.pch
+//  business
+//
+//  Created by yuechuang on 2017/1/11.
+//  Copyright © 2017年 yuechuang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#pragma mark ---- 总说明 ----
+
+// --------------------------------------- 总说明 --------------------------------
+// 1.配置的内容在此文件中(如:各URL、第三方key、统一的颜色等等)  2.每个代码的使用在前面加上注释
+// ------------------------------------------------------------------------------
+
+#pragma mark ---- 用于日志等等的调试 ----
+//用于日志等等的调试  Debug为 0:表示Debug值为假,现在处于非调试阶段  1:表示Debug值为真,现在处于调试阶段
+
+#define Debug 1
+
+#if (Debug)
+
+#define DebugLog(format, ...) NSLog(format, ## __VA_ARGS__)
+
+#define DebugWriteToFile(a, b, c) [a writeToFile:b atomically:c]
+
+#else
+
+#define DebugLog(format, ...)
+
+#define DebugWriteToFile(a, b, c)
+
+#endif
+
+
+
+
+
+
+#endif /* PrefixHeader_pch */
