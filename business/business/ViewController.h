@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+typedef void (^Blo)(NSString* str,UIColor * color);
+
+@property (nonatomic,strong)Blo block;
+
+
 
 @end
 

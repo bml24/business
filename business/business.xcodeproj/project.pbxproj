@@ -8,10 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		30768EDFFC71C7F8609AC5D5 /* libPods-business.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1283480C1E7F5263564CC720 /* libPods-business.a */; };
+		BD1730D01E29A9950014B425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1730CE1E29A9950014B425 /* Main.storyboard */; };
+		BD8F78661E2A0BB400DA3785 /* GDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8F78631E2A0BB400DA3785 /* GDNavigationController.m */; };
+		BD8F78671E2A0BB400DA3785 /* MLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8F78651E2A0BB400DA3785 /* MLNavigationController.m */; };
+		BDC0FA951E28C54B002CDA4D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC0FA941E28C54B002CDA4D /* HomeViewController.m */; };
+		BDC0FA961E28C54B002CDA4D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC0FA941E28C54B002CDA4D /* HomeViewController.m */; };
+		BDC0FA991E28C55E002CDA4D /* OrdersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC0FA981E28C55E002CDA4D /* OrdersViewController.m */; };
+		BDC0FA9A1E28C55E002CDA4D /* OrdersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC0FA981E28C55E002CDA4D /* OrdersViewController.m */; };
+		BDC0FAA01E28CEF8002CDA4D /* CFLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC0FA9E1E28CEF8002CDA4D /* CFLineChartView.m */; };
+		BDC0FAA11E28CEF8002CDA4D /* CFLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC0FA9E1E28CEF8002CDA4D /* CFLineChartView.m */; };
+		BDC0FAA21E28CEF8002CDA4D /* CFLineChartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDC0FA9F1E28CEF8002CDA4D /* CFLineChartView.xib */; };
+		BDC0FAA31E28CEF8002CDA4D /* CFLineChartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDC0FA9F1E28CEF8002CDA4D /* CFLineChartView.xib */; };
 		BDF0FF4F1E26057000FE16DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF0FF4E1E26057000FE16DB /* main.m */; };
 		BDF0FF521E26057000FE16DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF0FF511E26057000FE16DB /* AppDelegate.m */; };
 		BDF0FF551E26057000FE16DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF0FF541E26057000FE16DB /* ViewController.m */; };
-		BDF0FF581E26057000FE16DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF0FF561E26057000FE16DB /* Main.storyboard */; };
 		BDF0FF5A1E26057000FE16DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF0FF591E26057000FE16DB /* Assets.xcassets */; };
 		BDF0FF5D1E26057000FE16DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF0FF5B1E26057000FE16DB /* LaunchScreen.storyboard */; };
 		BDF0FF681E26057000FE16DB /* businessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF0FF671E26057000FE16DB /* businessTests.m */; };
@@ -39,13 +49,26 @@
 		1283480C1E7F5263564CC720 /* libPods-business.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-business.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D756F83961D5032568B075 /* Pods-business.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-business.release.xcconfig"; path = "Pods/Target Support Files/Pods-business/Pods-business.release.xcconfig"; sourceTree = "<group>"; };
 		97A43931C6DEF0A6248AA1A9 /* Pods-business.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-business.debug.xcconfig"; path = "Pods/Target Support Files/Pods-business/Pods-business.debug.xcconfig"; sourceTree = "<group>"; };
+		BD1730CF1E29A9950014B425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD8F785C1E29EEAB00DA3785 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		BD8F785D1E29EF5F00DA3785 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BD8F78621E2A0BB400DA3785 /* GDNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDNavigationController.h; sourceTree = "<group>"; };
+		BD8F78631E2A0BB400DA3785 /* GDNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDNavigationController.m; sourceTree = "<group>"; };
+		BD8F78641E2A0BB400DA3785 /* MLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLNavigationController.h; sourceTree = "<group>"; };
+		BD8F78651E2A0BB400DA3785 /* MLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLNavigationController.m; sourceTree = "<group>"; };
+		BDC0FA931E28C54B002CDA4D /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		BDC0FA941E28C54B002CDA4D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		BDC0FA971E28C55E002CDA4D /* OrdersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrdersViewController.h; sourceTree = "<group>"; };
+		BDC0FA981E28C55E002CDA4D /* OrdersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrdersViewController.m; sourceTree = "<group>"; };
+		BDC0FA9D1E28CEF8002CDA4D /* CFLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFLineChartView.h; sourceTree = "<group>"; };
+		BDC0FA9E1E28CEF8002CDA4D /* CFLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFLineChartView.m; sourceTree = "<group>"; };
+		BDC0FA9F1E28CEF8002CDA4D /* CFLineChartView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFLineChartView.xib; sourceTree = "<group>"; };
 		BDF0FF4A1E26057000FE16DB /* business.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = business.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF0FF4E1E26057000FE16DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BDF0FF501E26057000FE16DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BDF0FF511E26057000FE16DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BDF0FF531E26057000FE16DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BDF0FF541E26057000FE16DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BDF0FF571E26057000FE16DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDF0FF591E26057000FE16DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDF0FF5C1E26057000FE16DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDF0FF5E1E26057000FE16DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,7 +78,6 @@
 		BDF0FF6E1E26057000FE16DB /* businessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = businessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF0FF721E26057000FE16DB /* businessUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = businessUITests.m; sourceTree = "<group>"; };
 		BDF0FF741E26057000FE16DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BDF0FF801E26060C00FE16DB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +115,112 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BD8F78611E2A0B7800DA3785 /* Extended */ = {
+			isa = PBXGroup;
+			children = (
+				BD8F78621E2A0BB400DA3785 /* GDNavigationController.h */,
+				BD8F78631E2A0BB400DA3785 /* GDNavigationController.m */,
+				BD8F78641E2A0BB400DA3785 /* MLNavigationController.h */,
+				BD8F78651E2A0BB400DA3785 /* MLNavigationController.m */,
+			);
+			path = Extended;
+			sourceTree = "<group>";
+		};
+		BDC0FA8A1E28C2D5002CDA4D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BDC0FA8B1E28C2D5002CDA4D /* Home */,
+				BDC0FA8C1E28C2D5002CDA4D /* Orders */,
+				BDC0FA9B1E28CED8002CDA4D /* ThirdLibrary */,
+				BD8F78611E2A0B7800DA3785 /* Extended */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BDC0FA8B1E28C2D5002CDA4D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BDC0FA8D1E28C334002CDA4D /* Controller */,
+				BDC0FA8E1E28C334002CDA4D /* Model */,
+				BDC0FA8F1E28C334002CDA4D /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BDC0FA8C1E28C2D5002CDA4D /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				BDC0FA901E28C33D002CDA4D /* Controller */,
+				BDC0FA911E28C33D002CDA4D /* Model */,
+				BDC0FA921E28C33D002CDA4D /* Views */,
+			);
+			path = Orders;
+			sourceTree = "<group>";
+		};
+		BDC0FA8D1E28C334002CDA4D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BDC0FA931E28C54B002CDA4D /* HomeViewController.h */,
+				BDC0FA941E28C54B002CDA4D /* HomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BDC0FA8E1E28C334002CDA4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BDC0FA8F1E28C334002CDA4D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BDC0FA901E28C33D002CDA4D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BDC0FA971E28C55E002CDA4D /* OrdersViewController.h */,
+				BDC0FA981E28C55E002CDA4D /* OrdersViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BDC0FA911E28C33D002CDA4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BDC0FA921E28C33D002CDA4D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BDC0FA9B1E28CED8002CDA4D /* ThirdLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				BDC0FA9C1E28CEF8002CDA4D /* CFLineChart */,
+			);
+			path = ThirdLibrary;
+			sourceTree = "<group>";
+		};
+		BDC0FA9C1E28CEF8002CDA4D /* CFLineChart */ = {
+			isa = PBXGroup;
+			children = (
+				BDC0FA9D1E28CEF8002CDA4D /* CFLineChartView.h */,
+				BDC0FA9E1E28CEF8002CDA4D /* CFLineChartView.m */,
+				BDC0FA9F1E28CEF8002CDA4D /* CFLineChartView.xib */,
+			);
+			path = CFLineChart;
+			sourceTree = "<group>";
+		};
 		BDF0FF411E26057000FE16DB = {
 			isa = PBXGroup;
 			children = (
@@ -118,15 +246,17 @@
 		BDF0FF4C1E26057000FE16DB /* business */ = {
 			isa = PBXGroup;
 			children = (
+				BDC0FA8A1E28C2D5002CDA4D /* Classes */,
 				BDF0FF501E26057000FE16DB /* AppDelegate.h */,
 				BDF0FF511E26057000FE16DB /* AppDelegate.m */,
 				BDF0FF531E26057000FE16DB /* ViewController.h */,
 				BDF0FF541E26057000FE16DB /* ViewController.m */,
-				BDF0FF561E26057000FE16DB /* Main.storyboard */,
+				BD1730CE1E29A9950014B425 /* Main.storyboard */,
 				BDF0FF591E26057000FE16DB /* Assets.xcassets */,
 				BDF0FF5B1E26057000FE16DB /* LaunchScreen.storyboard */,
 				BDF0FF5E1E26057000FE16DB /* Info.plist */,
-				BDF0FF801E26060C00FE16DB /* PrefixHeader.pch */,
+				BD8F785C1E29EEAB00DA3785 /* Header.h */,
+				BD8F785D1E29EF5F00DA3785 /* PrefixHeader.pch */,
 				BDF0FF4D1E26057000FE16DB /* Supporting Files */,
 			);
 			path = business;
@@ -236,6 +366,7 @@
 				TargetAttributes = {
 					BDF0FF491E26057000FE16DB = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5Z2QGJJ33S;
 					};
 					BDF0FF621E26057000FE16DB = {
 						CreatedOnToolsVersion = 7.3;
@@ -274,7 +405,8 @@
 			files = (
 				BDF0FF5D1E26057000FE16DB /* LaunchScreen.storyboard in Resources */,
 				BDF0FF5A1E26057000FE16DB /* Assets.xcassets in Resources */,
-				BDF0FF581E26057000FE16DB /* Main.storyboard in Resources */,
+				BDC0FAA21E28CEF8002CDA4D /* CFLineChartView.xib in Resources */,
+				BD1730D01E29A9950014B425 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +414,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC0FAA31E28CEF8002CDA4D /* CFLineChartView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,9 +480,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD8F78671E2A0BB400DA3785 /* MLNavigationController.m in Sources */,
 				BDF0FF551E26057000FE16DB /* ViewController.m in Sources */,
 				BDF0FF521E26057000FE16DB /* AppDelegate.m in Sources */,
+				BDC0FAA01E28CEF8002CDA4D /* CFLineChartView.m in Sources */,
+				BDC0FA991E28C55E002CDA4D /* OrdersViewController.m in Sources */,
 				BDF0FF4F1E26057000FE16DB /* main.m in Sources */,
+				BDC0FA951E28C54B002CDA4D /* HomeViewController.m in Sources */,
+				BD8F78661E2A0BB400DA3785 /* GDNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +496,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDF0FF681E26057000FE16DB /* businessTests.m in Sources */,
+				BDC0FA9A1E28C55E002CDA4D /* OrdersViewController.m in Sources */,
+				BDC0FAA11E28CEF8002CDA4D /* CFLineChartView.m in Sources */,
+				BDC0FA961E28C54B002CDA4D /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,10 +526,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BDF0FF561E26057000FE16DB /* Main.storyboard */ = {
+		BD1730CE1E29A9950014B425 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BDF0FF571E26057000FE16DB /* Base */,
+				BD1730CF1E29A9950014B425 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -491,8 +632,9 @@
 			baseConfigurationReference = 97A43931C6DEF0A6248AA1A9 /* Pods-business.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5Z2QGJJ33S;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/yuechuang/Documents/business/business/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/yuechuang/Documents/code/business/business/PrefixHeader.pch;
 				INFOPLIST_FILE = business/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fuleme.business;
@@ -505,8 +647,9 @@
 			baseConfigurationReference = 29D756F83961D5032568B075 /* Pods-business.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5Z2QGJJ33S;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/yuechuang/Documents/business/business/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/yuechuang/Documents/code/business/business/PrefixHeader.pch;
 				INFOPLIST_FILE = business/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fuleme.business;

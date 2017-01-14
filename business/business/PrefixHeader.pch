@@ -1,13 +1,18 @@
 //
 //  PrefixHeader.pch
 //  business
-//
+//   $(SRCROOT)/business/PrefixHeader.pch
 //  Created by yuechuang on 2017/1/11.
 //  Copyright © 2017年 yuechuang. All rights reserved.
 //
 
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
+#import "Header.h"
+#import "AppDelegate.h"
+#import <AFNetworking.h>
+#import <Masonry.h>
+
 
 #pragma mark ---- 总说明 ----
 
@@ -34,8 +39,21 @@
 
 #endif
 
+//获取屏幕 宽度、高度
+#define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)s
 
 
+#define theAppDelegate ((AppDelegate *)([UIApplication sharedApplication].delegate))
+
+#define Maincolors [UIColor colorWithRed:89.0/255.0 green:211.0/255.0 blue:194.0/255.0 alpha:1.0]
+
+#define WithRed(r,g,b,a)  [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
+
+#define NSRect(x,y,w,h) CGRectMake(x,y,w,h)
+
+
+#define checkNull(__X__)        (__X__) == [NSNull null] || (__X__) == nil ? @"" : [NSString stringWithFormat:@"%@", (__X__)]
 
 
 

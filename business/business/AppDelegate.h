@@ -13,5 +13,7 @@
 @property (strong, nonatomic) UIWindow *window;
 
 
+- (UIColor *)colorWithHexString:(NSString *)color;
+
 @end
 

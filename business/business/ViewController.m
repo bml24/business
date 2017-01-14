@@ -16,10 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   
 
-    DebugLog(@"------dev-------");
+    self.view.backgroundColor = [UIColor whiteColor];
     
+    self.block(@"bbbbbbbb",[UIColor yellowColor]);
     
 }
 
