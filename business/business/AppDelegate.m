@@ -36,7 +36,7 @@
     
     [nav2.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
     nav2.navigationBar.shadowImage = [UIImage new];
-    
+
     
     UIColor * color =[self colorWithHexString:@"#D33B47"];
     
@@ -71,10 +71,8 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-    
 
 }
-
 
 
 /**
@@ -122,6 +120,7 @@
     
     return [UIColor colorWithRed:((float) r / 255.0f) green:((float) g / 255.0f) blue:((float) b / 255.0f) alpha:1.0f];
 }
+
 
 
 @end

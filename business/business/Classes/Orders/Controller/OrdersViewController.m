@@ -15,12 +15,30 @@
 
 @implementation OrdersViewController
 
+/**
+ *  监听属性值发生改变时回调
+ */
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSString *,id> *)change context:(void *)context
+{
+    NSLog(@"==--====99===   %@",keyPath);
+    
+    CGFloat offset = self.tableView.contentOffset.y;
+    CGFloat delta = offset / 64.f + 1.f;
+    delta = MAX(0, delta);
+    self.navigationController.navigationBar.alpha = MIN(1, delta);
+    
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     self.navigationItem.title = @"透明导航栏";
     
     [self.view addSubview:self.tableView];
+    
+    //添加监听者
+    [self.tableView addObserver: self forKeyPath: @"contentOffset" options: NSKeyValueObservingOptionNew context: nil];
     
 }
 
@@ -49,6 +67,7 @@
     }
 
     cell.textLabel.text = [NSString stringWithFormat:@"%ld",(long)indexPath.row];
+    
     return cell;
 }
 

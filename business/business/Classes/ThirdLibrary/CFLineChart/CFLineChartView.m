@@ -20,7 +20,6 @@ static CGFloat allW;    // 整个图表宽度
 @interface CFLineChartView ()
 
 @property (weak, nonatomic) IBOutlet UIView *bgView;
-
 @end
 
 
